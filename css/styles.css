@@ -85,6 +85,7 @@ body{
 }
 /* title categories */
 .categories__title{
+    box-sizing: border-box;
     color: white;
     font-size: 16px;
     position: absolute;
@@ -97,6 +98,7 @@ body{
     overflow: scroll;
     padding: 30px;
     position: relative;
+    box-sizing: border-box;
 }
 .carousel__container{
     transition: 450ms -webkit-transform;
@@ -155,7 +157,7 @@ body{
     justify-content: flex-end;
     align-items: flex-start;
 }
-.carousel-item__details:hover .carousel-item__details{
+.carousel-item__details:hover {
     opacity: 1;
 }
 .carousel-item__details--icon{
@@ -170,6 +172,9 @@ body{
     font-size: 8px;
     margin: 3px 0px;
     color: white;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 /* footer */
 .footer{
