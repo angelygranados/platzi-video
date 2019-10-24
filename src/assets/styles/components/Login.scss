@@ -1,0 +1,64 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    min-height: calc(100vh - 200px);
+    background: linear-gradient(#21C08B, #8F57FD)
+}
+.login__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 60px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.login__container--form{
+    display: flex;
+    flex-direction: column;
+}
+.login__container--form label{
+    font-size: 14px; 
+}
+.login__container--rememberme{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.login__container--rememberme a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.login__container--rememberme a:hover{
+    text-decoration: underline;
+}
+.login__container--socialmedia > div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.login__container--socialmedia > div > img{
+    width: 30px;
+    margin-right: 10px;
+}
+.login__container--register{
+    font-size: 14px;
+}
+.login__container--register a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login__container--register a:hover{
+    text-decoration: underline;
+}
